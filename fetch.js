@@ -10,10 +10,10 @@ const fetchNVE = async (id) => {
 
 const oppdaterData = async () => {
   try {
-    const vannstand = await fetchNVE(11918);
-    const vannforing = await fetchNVE(11917);
-    const vanntemp = await fetchNVE(11919);
-    const lufttemp = await fetchNVE(11920);
+    const vannstand = await fetchNVE(11918);   // Kista – vannstand
+    const vannforing = await fetchNVE(11917);  // Kista – vannføring
+    const vanntemp = await fetchNVE(11919);    // Kista – vanntemp
+    const lufttemp = await fetchNVE(11920);    // Kista – lufttemp
 
     document.querySelector(".dato").textContent = new Date(vannstand.Time).toLocaleString("no-NO");
 
