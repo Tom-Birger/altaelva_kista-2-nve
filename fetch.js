@@ -27,5 +27,4 @@ const oppdaterData = async () => {
 };
 
 oppdaterData();
-
-console.log("fetch.js aktivert – legg inn fetch-kode her for å hente data fra NVE");
+Henter sanntidsdata fra NVE via proxy
