@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>HTML Base</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="frame">
+    <div class="topp">
+        <div class="header">Målestasjon Kista</div>
+        <div class="ingress">Data fra NVE, sist oppdatert: <span class="dato">klokken</span></div>
+    </div>
+    <div class="firkant">
+        <div class="vannstand box">
+            <div class="bilde"><img src="vannstand.png" alt="" /></div><span></span>
+            <div class="inndata">0.00m</div><span></span>
+            <div class="tekst">VANNSTAND</div>
+        </div>
+        <div class="vannforing box">
+            <div class="bilde"><img src="vannforing.png" alt="" /></div>
+            <div class="inndata">0.0m3/s</div>
+            <div class="tekst">VANNFØRING</div>
+        </div>
+        <div class="vanntemp box">
+            <div class="bilde"><img src="vanntemp.png" alt="" /></div>
+            <div class="inndata">0c</div>
+            <div class="tekst">VANNTEMP</div>
+        </div>
+        <div class="lufttemp box">
+            <div class="bilde"><img src="lufttemp.png" alt="" /></div>
+            <div class="inndata">0c</div>
+            <div class="tekst">LUFTTEMP</div>
+        </div>
+    </div>
+</div>
+<div class="chart">
+    <canvas id="myChart"></canvas>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+<script src="./fetch.js"></script>
+</body>
+</html>

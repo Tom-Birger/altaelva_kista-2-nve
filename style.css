@@ -1,0 +1,27 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+.frame {
+  padding: 20px;
+}
+.box {
+  margin: 10px;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+}
+.header {
+  font-size: 24px;
+  font-weight: bold;
+}
+.ingress {
+  font-size: 14px;
+  color: #777;
+}
